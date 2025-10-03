@@ -1,2 +1,2 @@
 # ConcurrentMemoryPool
-本项目实现的是一个高并发的内存池，它的原型是Google的一个开源项目tcmalloc，tcmalloc全称Thread-Caching Malloc，即线程缓存的malloc，实现了高效的多线程内存管理，用于替换系统的内存分配相关函数malloc和free。
+本项目实现的是一个高并发的内存池，它的原型是Google的一个开源项目tcmalloc，tcmalloc全称Thread-Caching Malloc，即线程缓存的malloc，实现了高效的多线程内存管理，用于替换系统的内存分配相关函数malloc和free。tcmalloc的知名度也是非常高的，不少公司都在用它，比如Go语言就直接用它做了自己的内存分配器。该项目就是把tcmalloc中最核心的框架简化后拿出来，模拟实现出一个mini版的高并发内存池，目的就是学习tcmalloc的精华。该项目主要涉及C/C++、数据结构（链表、哈希桶）、操作系统内存管理、单例模式、多线程、互斥锁等方面的技术。
