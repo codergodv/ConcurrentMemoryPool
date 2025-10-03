@@ -1,0 +1,2 @@
+# ConcurrentMemoryPool
+本项目实现的是一个高并发的内存池，它的原型是Google的一个开源项目tcmalloc，tcmalloc全称Thread-Caching Malloc，即线程缓存的malloc，实现了高效的多线程内存管理，用于替换系统的内存分配相关函数malloc和free。
